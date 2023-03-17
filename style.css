@@ -57,3 +57,8 @@ h1 {
   font-size: 20px;
   border : 1px solid black;
 }
+#reset-button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: lightseagreen;
+}
