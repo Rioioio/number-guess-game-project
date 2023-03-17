@@ -1,44 +1,59 @@
+body {
+  margin: 0;
+}
 
 .container {
   text-align: center;
   justify-content: center;
-  background-color: beige;
-  height: 100%;
-  width: 100%;
-  align-items: center;
-}
-.inner {
-  background-color: beige;
-
+  background-color: wheat;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 h1 {
   font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 10px;
 }
-
 .result-page input {
   height: 24px;
 }
 
+.result-page span {
+  font-size: 30px;
+  font-weight: 700;
+  justify-content: center;
+  align-content: center;
+}
 .result-area img {
-  width: 500px;
-  height: 400px;
+  margin: 50px;
+  width: 300px;
+  height: 300px;
 }
 .result-area #result {
-  font-size: 24px;
+  font-size: 22px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 #chance-area {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-size: 24px;
+}
+#user-input {
+  padding: 20px;
 }
 #play-button {
   font-size: 20px;
   border : 1px solid black;
+  margin-top: 40px;
 }
 #play-button:hover {
   background-color: orange;
   color: white;
   cursor: pointer;
+}
+#reset-button {
+  font-size: 20px;
+  border : 1px solid black;
 }
